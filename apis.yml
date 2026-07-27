@@ -1,8 +1,25 @@
 aid: hellofresh
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hellofresh.png
 name: HelloFresh
-description: 'HelloFresh is a company surfaced as a portfolio company of hv-capital, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'HelloFresh SE is a publicly listed (Frankfurt Stock Exchange: HFG), Berlin-headquartered
+  global meal-kit and food-solutions company that ships recipes and pre-portioned ingredients to
+  households across North America, Europe, and Asia-Pacific. Its brand portfolio includes HelloFresh,
+  Factor, Green Chef, EveryPlate, Chefs Plate, Youfoodz, and Good Chop. HelloFresh does not publish
+  a public consumer developer API; its engineering organization is active in open source on GitHub,
+  maintaining widely used infrastructure tooling such as the Janus API gateway, the health-go
+  healthcheck library, and the goengine event-sourcing framework. This profile was surfaced as a
+  portfolio company of HV Capital and Insight Partners and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/hellofresh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Food and Beverage
+- Meal Kit
+- E-Commerce
+- Subscription
+- Open Source
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hellofresh-domain-security.yml
 - type: Website
   url: http://www.hellofresh.com/
+- type: GitHubOrganization
+  url: https://github.com/hellofresh
+- type: Blog
+  url: https://www.hellofresh.com/blog
+- type: Careers
+  url: https://careers.hellofresh.com/
+- type: CorporateWebsite
+  url: https://www.hellofreshgroup.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
