@@ -64,6 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-HelloFresh is a company surfaced as a portfolio company of hv-capital, insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+HelloFresh SE is a publicly listed (Frankfurt Stock Exchange: HFG), Berlin-headquartered global meal-kit and food-solutions company that ships recipes and pre-portioned ingredients to households across North America, Europe, and Asia-Pacific. Its brand portfolio includes HelloFresh, Factor, Green Chef, EveryPlate, Chefs Plate, Youfoodz, and Good Chop. HelloFresh does not publish a public consumer developer API; its engineering organization is active in open source on GitHub, maintaining widely used infrastructure tooling such as the Janus API gateway, the health-go healthcheck library, and the goengine event-sourcing framework. This profile was surfaced as a portfolio company of HV Capital and Insight Partners and enriched by the API Evangelist pipeline.
 
-Backed by: hv-capital, insight-partners — http://www.hellofresh.com/
+**Areas:** Company · Consumer · Food and Beverage · Meal Kit · E-Commerce · Subscription · Open Source · Retail
+
+## HelloFresh on APIs.io
+
+Everything profiled for HelloFresh is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hellofresh/](https://apis.io/providers/hellofresh/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hellofresh Domain Security](https://apis.io/security/hellofresh/hellofresh-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.hellofresh.com/)
+- [Blog](https://www.hellofresh.com/blog)
+- [GitHub](https://github.com/hellofresh)
+
+## API Evangelist rating
+
+**Kin Score 4.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hellofresh/](https://apis.io/providers/hellofresh/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HelloFresh: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hellofresh/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
